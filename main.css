@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    margin: auto;
+    width: 90%;
+    max-width: 969px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.first {
+    width: 30%;
+    margin: 2em auto;
+    text-align: center;
+}
+.first img {
+    width: 40%;
+    border-radius: 10px;
+}
+.first h4 {
+    font-weight: 600;
+    color: #4E5150;
+    font-size: 1.5rem;
+    margin: 0.5em 0em;
+}
+.first p {
+    font-weight: 600;
+    color: #A9A9A9;
+    font-size: 0.875rem;
+    margin-bottom: 1em;
+}
+.first .boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.first .boxes .box h4{
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #4E5150;
+}
+.first .boxes .box{
+    width: 30%;
+    padding: 0.5em 0.5em;
+    border-radius: 15px;
+    background: #E5E5E5;
+}
+.first .boxes .box p{
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #BDBDBD;
+}
+@media (max-width: 1100px ) {
+    .first {
+        width: 60%;
+    }
+}
+@media (max-width: 750px ) {
+    .first {
+        width: 80%;
+    }
+}
+
+/* =====
+    seconde
+====== */
+.second .container {
+    display: flex;
+    justify-content: space-between;
+}
+ .second .container :first-child {
+    width: 30% ;
+} 
+.second .container :last-child {
+    width: 65% ;
+}
+/* ==========
+third
+========== */
+.third {
+    margin-top: 2em;
+}
+.third .container {
+    display: flex;
+    justify-content: space-between;
+}
+.third .container .left{
+    width: 65% ;
+}
+.third .container .left img{
+    width: 100% ;
+    margin-bottom: 2em;
+}
+.third .container .left div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.third .container .left div img{
+    width:47.5%;
+    margin-bottom: 0em;
+}
+.third .container img{
+    width: 30% ;
+}
+
+@media (max-width: 750px ) {
+    .third {
+        margin-top: 1em;
+    }
+    .third .container .left img{
+        margin-bottom: 1em;
+    }
+}
